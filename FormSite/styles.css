@@ -25,6 +25,8 @@ input[type=submit] {margin:10px; border-radius:5px; background-color:blue; color
 
 ul {list-style-type:none;}
 
+input:focus{outline:solid;}
+
 @media (min-width:768px) {.form-row >input {display:flex; flex:1;} 
 .form {margin:auto; width:60%;}
 .form-row {display:flex; justify-content: flex-end;}
