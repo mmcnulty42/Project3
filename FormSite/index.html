@@ -40,23 +40,26 @@
 <option value="Oregon">Oregon</option>
 <option value="Washington">Washington</option>
 </select><br></li>
-<li class="form-row"  ><label for="zipcode">Zip Code</label><br>
+<li class="form-row" ><label for="zipcode">Zip Code</label><br>
 <input type="text" name="zipcode" id="zipcode"></li></ul></fieldset>
 <hr><fieldset>
     <legend>Newsletters</legend>
 <label >Select the Newsletters You Would Like to Receive</label><br>
-<label for="news1">HTML</label>
-<input type="checkbox" id="news1" name="newsletters1" value="HTML"><br>
-<label for="news2">CSS</label><input type="checkbox" id="news2" name="newsletters2" value="CSS"><br>
-<label for="news3">Javascript</label><input type="checkbox" id="news3" name="newsletters3" value="Javascript"><br>
+
+<input type="checkbox" id="news1" name="newsletters1" value="HTML">
+<label for="news1">HTML</label><br>
+<input type="checkbox" id="news2" name="newsletters2" value="CSS">
+<label for="news2">CSS</label><br>
+<input type="checkbox" id="news3" name="newsletters3" value="Javascript">
+<label for="news3">Javascript</label><br>
 Newsletter Format<br>
-<label for="type">HTML</label><input type="radio" id="type" name="newsletterformat" value="HTML"><br>
-<label for="type2">Plain Text</label><input type="radio" id="type2" name="newsletterformat" value="PlainText"><br>
+<input type="radio" id="type" name="newsletterformat" value="HTML"><label for="type">HTML</label><br>
+<input type="radio" id="type2" name="newsletterformat" value="PlainText"><label for="type2">Plain Text</label><br>
 <label for="textarea">Other Topics You'd Like to Hear About</label><br>
-<textarea id="textarea" name="textarea" rows="4" cols="50">
+<div class="flex-container"><div><textarea id="textarea" name="textarea" >
 Put your suggestions here.
-</textarea><br>
-<input class="submit" type="submit" value="Sign Up"><br>
+</textarea><br></div>
+<input class="submit" type="submit" value="Sign Up"><br></div>
 </fieldset>
 </form>
 
