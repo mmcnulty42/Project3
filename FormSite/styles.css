@@ -1,7 +1,7 @@
-.codereview {background-color:rgb(122, 40, 40); text-align:center;
-font-size:1.7em; color:white;}
+.codereview {background-color:rgb(122, 40, 40); text-align:center; padding:15px;
+font-size:1.7em; color:white; margin:0px;}
 
-* {font-family: 'Lora', serif; }
+* {font-family: 'Lora', serif;  }
 
 .newsletter {text-align:center; font-size:1.4em;}
 
@@ -19,22 +19,30 @@ input[type=select] {margin:10px; padding:10px; flex:1; }
 
 input[type=checkbox] {margin:10px; padding:10px; border-radius:5px;}
 
-input[type=submit] {margin:10px; border-radius:5px; background-color:blue; color:white; 
+input[type=radio] {margin:10px; padding:10px; border-radius:5px; }
+
+input[type=submit] { width:100%; border-radius:5px; background-color:blue; color:white; 
  
     
     font-size:1.4em;}
 
 .form {display:flex; flex-direction:column;}
 
+hr {width:100%;}
+.hr {width:100%;}
+
 ul {list-style-type:none;}
 
 input:focus{outline:solid;}
 
+#type {text-align:left;}
 
-.flex-container div {display:flex; flex-direction:column; flex-grow:1;}
+.flex-container div {display:flex; flex-direction:column; flex-grow:1; justify-content:flex-start;}
 
-#textarea {min-width:15em; justify-content:center;}
-.submit {width:100%; flex:1; justify-content:center;}
+#textarea {min-width:15em; justify-content:center; height:10em; width:99%;}
+.submit {width:100%; flex:1; padding:20px;}
+
+.code {text-align:center;}
 
 .form-row > label {
     width: 25%;
@@ -52,10 +60,10 @@ select {margin:1em; border-radius:5px; padding:1em;}
 
 @media (min-width:768px) {.form-row >input {display:flex; flex:1;} 
 .form {margin:auto; width:60%;}
-.form-row {display:flex; }
-.form-row > label{display:flex; flex:1;}
+.form-row {display:flex; flex:1; }
+.form-row > label{display:flex; width:25%;}
 .form-row {justify-content:flex-start;}
 .form-row1 {justify-content:flex-start;}
-.label {max-width:47%;} #zipcode {max-width:15%;}
+.label {max-width:47%;} #zipcode {max-width:15%;} hr {width:60%;}
 }
 

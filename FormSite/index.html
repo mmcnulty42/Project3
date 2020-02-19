@@ -10,7 +10,7 @@
 </head>
 <body>
 <div >
-<p class="codereview">The Code Review</p>
+<p class="codereview">THE CODE REVIEW</p>
 </div>
 <div class="newsletter">
 <p>Signup for Our Newsletter</p>
@@ -20,7 +20,7 @@
 </div>
 
 <form class="form">
-    <fieldset><legend>Contact Information</legend><br>
+    <h3><b>Contact Information</b></h3><br>
         <ul><li class="form-row"><label for="fullname">Full Name</label><br>
             <input type="text" name="text" id="fullname" placeholder="required"><br></li>
             <li class="form-row"><label  for="em">Email Address</label><br>
@@ -41,28 +41,31 @@
 <option value="Washington">Washington</option>
 </select><br></li>
 <li class="form-row1 form-row" ><label for="zipcode" class="label">Zip Code</label><br>
-<input type="text" name="zipcode" id="zipcode"></li></ul></fieldset>
-<hr><fieldset>
-    <legend>Newsletters</legend>
+<input type="text" name="zipcode" id="zipcode"></li></ul>
+
+<hr class="hr">
+   <h3><b>Newsletters</b></h3>
+
 <label >Select the Newsletters You Would Like to Receive</label><br>
-
-<input type="checkbox" id="news1" name="newsletters1" value="HTML">
-<label for="news1">HTML</label><br>
-<input type="checkbox" id="news2" name="newsletters2" value="CSS">
-<label for="news2">CSS</label><br>
-<input type="checkbox" id="news3" name="newsletters3" value="Javascript">
-<label for="news3">Javascript</label><br>
+<table>
+<tr><td><input type="checkbox" id="news1" name="newsletters1" value="HTML"></td>
+<td><label for="news1">HTML</label></td></tr><br>
+<tr><td><input type="checkbox" id="news2" name="newsletters2" value="CSS"></td>
+<td><label for="news2">CSS</label></td></tr><br>
+<tr><td><input type="checkbox" id="news3" name="newsletters3" value="Javascript"></td>
+<td><label for="news3">Javascript</label></td></tr><br></table>
 Newsletter Format<br>
-<input type="radio" id="type" name="newsletterformat" value="HTML"><label for="type">HTML</label><br>
-<input type="radio" id="type2" name="newsletterformat" value="PlainText"><label for="type2">Plain Text</label><br>
+<table><tr><td><input type="radio" id="type" name="newsletterformat" value="HTML"></td>
+    <td><label for="type">HTML</label></td></tr><br>
+<tr><td><input type="radio" id="type2" name="newsletterformat" value="PlainText"></td><td><label for="type2">Plain Text</label></td></tr></table><br>
 <label for="textarea">Other Topics You'd Like to Hear About</label><br>
-<div class="flex-container"><div><textarea id="textarea" name="textarea" >
+<textarea id="textarea" name="textarea" >
 Put your suggestions here.
-</textarea><br></div>
-<input class="submit" type="submit" value="Sign Up"><br></div>
-</fieldset>
-</form>
+</textarea><br>
+<input class="submit" type="submit" value="Sign Up"><br>
 
+</form>
+<p class="code"><i>Copyright: The Code Review</i></p>
 
 </body>
 
